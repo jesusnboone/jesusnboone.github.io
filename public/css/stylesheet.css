@@ -4,6 +4,10 @@
   background-color: #EEEAE9;
 }
 
+.one {
+  height: 400px;
+}
+
 body {
     background-color: light;
 }
@@ -54,7 +58,7 @@ li {
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter:         drop-shadow(5px 5px 5px #222);
     position: absolute;
-    bottom: 0px;
+    bottom: -25px;
     left: 12%;
   }
 
