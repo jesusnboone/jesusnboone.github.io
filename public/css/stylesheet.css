@@ -1,5 +1,21 @@
+.off-white {
+  height: 100%;
+  width: 100%;
+  background-color: #EEEAE9;
+}
+
 body {
     background-color: light;
+}
+
+.navbar {
+  background-color: #666;
+  position: absolute;
+  right: 0;
+}
+
+.navbar-brand {
+  padding-left: 18%
 }
 
 .container {
@@ -7,7 +23,7 @@ body {
 }
 
 .about {
-  background-color: #fdffff;
+  background-color: #EEEAE9;
   width: 100%;
   overflow: hidden;
 }
@@ -19,7 +35,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #666;
-  margin-left: 2%;
+  margin-left: 15%;
 }
 
 
@@ -33,12 +49,13 @@ li {
 }
 
 .headshot {
-    max-width: 40%;
+    max-width: 95%;
+    max-height: 95%;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter:         drop-shadow(5px 5px 5px #222);
     position: absolute;
     bottom: 0px;
-    left: 0px;
+    left: 12%;
   }
 
 .row {
