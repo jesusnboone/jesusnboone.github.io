@@ -7,12 +7,25 @@ body {
 }
 
 .about {
-  background-color: whitesmoke;
+  background-color: #fdffff;
   width: 100%;
+  overflow: hidden;
 }
 
 .align-end {
-  align-items: flex-end
+}
+
+.grey {
+  height: 100%;
+  width: 100%;
+  background-color: #666;
+  margin-left: 2%;
+}
+
+
+li {
+  list-style-type: none;
+  text-align: center;
 }
 
 .justify-center {
@@ -20,15 +33,13 @@ body {
 }
 
 .headshot {
-    justify-items: center;
-    align-items: end;
-    max-width: 75%;
-    max-height: 75%;
-    -webkit-filter: drop-shadow(5px 5px 5px grey);
-    filter:         drop-shadow(5px 5px 5px grey); 
-    position: relative;
-    top: 25%;
-}
+    max-width: 40%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
 
 .row {
     display: flex;
