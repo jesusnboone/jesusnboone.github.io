@@ -11,6 +11,15 @@ html *
   background-color: #EEEAE9;
 }
 
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
 .me {
   position: relative;
   top: 25%;
@@ -48,12 +57,21 @@ html *
   color:#EEEAE9;
 }
 
+.inner-port {
+  align: center;
+  height: 100%;
+  width: 80%;
+  background-color: #999;
+  position: relative;
+  left: 10%;
+  opacity: 0.5;
+}
+
 .port {
   height: 100%;
   width: 100%;
-  background-color: #999;
+  background-color: #888;
   margin-top: 1%;
-  opacity: 0.5;
 }
 
 h2 {
