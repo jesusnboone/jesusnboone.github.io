@@ -67,6 +67,9 @@ html *
   position: relative;
   left: 10%;
   top: 5%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(5px 5px 5px #222);
+  border-radius: 20px;
 }
 
 .port {
