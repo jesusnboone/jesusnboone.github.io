@@ -36,8 +36,8 @@ html *
   padding-top: 10%;
   padding-bottom: 10%;
   box-shadow: 
-  inset 0px 11px 8px -15px grey,
-  inset 0px -11px 8px -15px grey; 
+  inset 0px 11px 8px -15px black,
+  inset 0px -11px 8px -15px black; 
 }
 
 h2 {
@@ -131,8 +131,8 @@ li {
   width: 100%;
   max-width: 30vw;
   height: auto;
-  -webkit-filter: drop-shadow(15px 50px 50px #444);
-  filter:         drop-shadow(15px 50px 50px #444);
+  -webkit-filter: drop-shadow(15px 50px 50px #333);
+  filter:         drop-shadow(15px 50px 50px #333);
   position: relative;
   top: -10%;
   left:-10%;
