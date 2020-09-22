@@ -55,7 +55,7 @@ body {
   font-size: 1.5vw;
   display: flex;
   background-color: #19b8d4;
-
+  padding: 2%;
 }
 
 
@@ -119,12 +119,12 @@ li {
   width: 100%;
   max-width: 30vw;
   height: auto;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter:         drop-shadow(5px 5px 5px #222);
-    position: relative;
-    bottom: -5%;
-    left:-15%;
-    margin-top: 15%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(5px 5px 5px #222);
+  position: relative;
+  bottom: -20%;
+  left:-15%;
+  margin-top: 15%;
   }
 
 .row {
@@ -169,3 +169,23 @@ li {
       max-width: 100%;
     }
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
