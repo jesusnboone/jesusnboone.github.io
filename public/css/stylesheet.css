@@ -1,35 +1,13 @@
-
-
 html *
 {
   font-family: 'Libre Franklin', sans-serif;
+  margin: auto;
 }
 
 .off-white {
-  height: 100%;
-  width: 100%;
   background-color: #EEEAE9;
 }
 
-.hide {
-  display: none;
-}
-    
-.myDIV:hover + .hide {
-  display: block;
-  color: red;
-}
-
-.me {
-  position: relative;
-  top: 25%;
-  text-align: center;
-}
-
-.one {
-  line-height: 300%;
-  height: 200%;
-}
 
 .name {
   text-align: center;
@@ -42,46 +20,28 @@ html *
 }
 
 .skills {
-  text-align: center;
-  justify-content: end;
-  white-space: nowrap;
   color: #19b8d4;
-  margin-bottom: 5%;
 }
 
 .portfolio {
   text-align: center;
-  vertical-align: center;
-  align-items: center;
-  position: relative;
-  top: 20%;
   color:#EEEAE9;
-
-}
-
-.inner-port {
-  align: center;
-  height: 90%;
-  width: 80%;
-  background-color: #19b8d4;
-  position: relative;
-  left: 10%;
-  top: 5%;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter:         drop-shadow(5px 5px 5px #222);
-  border-radius: 20px;
 }
 
 .port {
   height: 100%;
   width: 100%;
   background-color: #0e96ad;
-  margin-top: 1%;
 }
 
 h2 {
   font-weight: bold;
+  font-size: 2.0vw;
   
+}
+
+p {
+  font-size: 1.5vw;
 }
 
 
@@ -91,43 +51,34 @@ body {
 
 .navbar {
   background-color: #19b8d4;
-  position: absolute;
-  right: 0;
   color:#EEEAE9;
   font: bold;
-  font-size: large;
-  margin-top: 2%;
-  margin-right: 2%;
+  font-size: 1.5vw;
 }
 
-.navbar-light .navbar-nav .nav-link{
-  color: #EEEAE9;
-  font: bolder;
 
-}
-
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-text:hover{
   opacity: .5;
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
 }
 
-.nav-item {
+.col {
+  padding: 0;
+}
+
+.navbar-text {
   font: bold;
   transition: transform .2s; /* Animation */
 }
-.nav-item:hover {
+.navbar-text:hover {
   opacity: .5;
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 a {
   color: white;
   font: bolder;
-}
-
-.navbar-brand {
-  padding-left: 15%
 }
 
 .container {
@@ -137,7 +88,6 @@ a {
 .about {
   background-color: #EEEAE9;
   width: 100%;
-  overflow: hidden;
 }
 
 .align-end {
@@ -147,7 +97,6 @@ a {
   height: 200%;
   width: 100%;
   background-color: #19b8d4;
-  margin-left: 18%;
 }
 
 
@@ -161,26 +110,28 @@ li {
 }
 
 .headshot {
-    max-width: 70%;
-    max-height: 70%;
+  width: 100%;
+  max-width: 30vw;
+  height: auto;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter:         drop-shadow(5px 5px 5px #222);
     position: relative;
     bottom: -5%;
     left:-20%;
-    margin-top: 10%;
+    margin-top: 15%;
   }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    overflow-y: hidden;
   }
   
   /* Create four equal columns that sits next to each other */
   .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    flex: 50%;
+    max-width: 100%;
+    padding: 0;
   }
   
   .column img {
@@ -192,7 +143,7 @@ li {
 
   .column img:hover {
     opacity: .5;
-    transform: scale(1.025); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -205,6 +156,7 @@ li {
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
+
     .column {
       flex: 100%;
       max-width: 100%;
