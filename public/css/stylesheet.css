@@ -32,6 +32,8 @@ html *
   height: 100%;
   width: 100%;
   background-color: #0e96ad;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 h2 {
@@ -124,7 +126,7 @@ li {
   position: relative;
   bottom: -20%;
   left:-15%;
-  margin-top: 15%;
+  margin-top: 10%;
   }
 
 .row {
