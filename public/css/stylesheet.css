@@ -2,6 +2,11 @@ html *
 {
   font-family: 'Libre Franklin', sans-serif;
   margin: auto;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .off-white {
@@ -87,12 +92,14 @@ body {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   text-decoration: none;
   cursor: default;
+  color: #ebeff5;
 }
 
 a {
-  color: white;
+  color: #ebeff5;
   font: bolder;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -194,7 +201,7 @@ li {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ebeff5;
 }
 
 /* Handle */
