@@ -35,16 +35,16 @@ html {
 }
 
 .inner-port {
-  padding-left: 10%;
-  padding-right: 10%
+  padding-left: 12.5%;
+  padding-right: 12.5%
 }
 
 .port {
   height: 100%;
   width: 100%;
   background-color: #1d50a8;
-  padding-top: 13%;
-  padding-bottom: 13%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   box-shadow: 
   inset 0px 11px 8px -15px black,
   inset 0px -11px 8px -15px black; 
@@ -122,6 +122,23 @@ a {
   width: 100%;
   background-color: #4478d4;
   box-shadow: -10px 0px 20px 0.5px #aaaaaa;
+  
+}
+
+.blue-text {
+  transition: transform .2s; /* Animation */
+  text-decoration: none;
+  color: #4478d4;
+}
+
+.blue-text:hover {
+
+    opacity: .5;
+    text-align: center;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    text-decoration: none;
+    cursor: default;
+    color: #4478d4;
   
 }
 
