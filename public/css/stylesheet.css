@@ -72,7 +72,6 @@ body {
   font-size: 1.5vw;
   display: flex;
   background-color: #4478d4;
-  padding: 2%;
 }
 
 
@@ -199,16 +198,13 @@ li {
 }
 
 .headshot {
-  width: 100%;
-  max-width: 30vw;
-  height: auto;
-  -webkit-filter: drop-shadow(15px 50px 50px #333);
-  filter:         drop-shadow(15px 50px 50px #333);
-  position: relative;
-  top: -10%;
-  left:-5%;
-  margin-top: 10%;
+
+  -webkit-filter: drop-shadow(15px 50px 50px #666);
+  filter:         drop-shadow(15px 50px 50px #666);
+  pointer-events: none;
   }
+
+  
 
 .row {
     display: flex;
