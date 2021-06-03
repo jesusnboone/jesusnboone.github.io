@@ -181,6 +181,9 @@ a {
 
 }
 
+.img-pop:hover {
+  opacity:.5;
+}
 
 li {
   list-style-type: none;
